@@ -6,9 +6,12 @@ structure
 python-lib-2025/          <-- 프로젝트 루트
 ├── README.md
 ├── pyproject.toml
-└── mylib/                <-- 패키지명 'mylib'
+├── mylib/                <-- 패키지명 'mylib'
+│   ├── __init__.py
+│   └── timer.py
+└── Pyside6Lib/
     ├── __init__.py
-    └── mytimer.py
+    └── VerticalLabel.py
 ```
 
 pyproject.toml
@@ -28,7 +31,7 @@ dependencies = []
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["mylib*"]
+include = ["mylib", "Pyside6Lib*"]
 ```
 
 install
