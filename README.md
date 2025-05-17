@@ -19,13 +19,13 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mylib"
+name = "python-lib"
 version = "0.1.0"
 description = "My sample timer library"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.7"
 dependencies = []
-    
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["mylib*"]
@@ -35,6 +35,9 @@ install
 
 ```shell
 uv add "python-lib @ git+https://github.com/five2nine/python-lib-2025.git"
+
+uv add "mylib @ git+https://github.com/five2nine/python-lib-2025"
+
 pip install git+https://github.com/five2nine/python-lib-2025.git
 ```
 

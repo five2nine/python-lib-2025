@@ -3,12 +3,12 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my-lib"
+name = "python-lib"
 version = "0.1.0"
-description = "My Python library"
+description = "My sample timer library"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.7"
-dependencies = ["requests", "pandas"]
+dependencies = []
 
 [tool.setuptools.packages.find]
 where = ["."]
