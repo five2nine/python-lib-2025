@@ -35,10 +35,7 @@ install
 
 ```shell
 uv add "python-lib @ git+https://github.com/five2nine/python-lib-2025.git"
-
-uv add "mylib @ git+https://github.com/five2nine/python-lib-2025"
-
-pip install git+https://github.com/five2nine/python-lib-2025.git
+uv add "python-lib @ git+https://github.com/five2nine/python-lib-2025"
 ```
 
 usage
