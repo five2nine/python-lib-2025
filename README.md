@@ -9,9 +9,12 @@ python-lib-2025/          <-- 프로젝트 루트
 ├── mylib/                <-- 패키지명 'mylib'
 │   ├── __init__.py
 │   └── timer.py
-└── Pyside6Lib/
+└── Pyside6Lib/           <-- 패키지명 'Pyside6Lib'
     ├── __init__.py
-    └── VerticalLabel.py
+    └── WidgetExt/
+        ├── __init__.py
+        ├── vertical_label.py
+        └── horizontal_label.py
 ```
 
 pyproject.toml
